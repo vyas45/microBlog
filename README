@@ -4,3 +4,12 @@
 * To run the application:
   * export FLASK_APP=microblog.py
   * flask run`
+
+
+  * Database migrations:
+     * flask db init - creates migration directory and sets up scripts
+     * flask db migrate -m "users table"
+     * flask db upgrade -> apply changes to the DB
+
+* Trying out in a python interpreter
+    * flash shell -> loads the app and the imports

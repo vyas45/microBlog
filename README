@@ -1,0 +1,6 @@
+#virtual Env
+  * virtualenv venv
+
+* To run the application:
+  * export FLASK_APP=microblog.py
+  * flask run`
